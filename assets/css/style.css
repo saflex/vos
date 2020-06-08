@@ -1,0 +1,124 @@
+
+
+
+#drop a{
+    background-color:#007a96;
+    padding:12px 26px;
+    color:#fff;
+    font-size:14px;
+    border-radius:2px;
+    cursor:pointer;
+    display:inline-block;
+    margin-top:12px;
+    line-height:1;
+}
+
+
+
+#drop input{
+    display:none;
+}
+
+#upload ul{
+    list-style:none;
+    margin:0 -30px;
+    border-top:1px solid #EEEFF0;
+    border-bottom:1px solid #EEEFF0;
+}
+
+#upload ul li{
+
+    padding:15px;
+    height: 52px;
+
+    position: relative;
+}
+
+#upload ul li input{
+    display: none;
+}
+
+#upload ul li p {
+    width: 144px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #EEE;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 37px;
+    left: 0;
+}
+
+#upload ul li i{
+    font-weight: normal;
+    font-style:normal;
+    color:#7f7f7f;
+    display:block;
+}
+
+#upload ul li canvas{
+    top: 15px;
+    left: 32px;
+    position: absolute;
+}
+
+#upload ul li span{
+    width: 15px;
+    height: 12px;
+    background: url('../img/icons.png') no-repeat;
+    position: absolute;
+    top: 34px;
+    right: 33px;
+    cursor:pointer;
+}
+
+#upload ul li.working span{
+    height: 16px;
+    background-position: 0 -12px;
+}
+
+#upload ul li.error p{
+    color:red;
+}
+
+
+#upload ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 20px;
+    padding-left: 0;
+    border-top: 1px solid #EEEFF0;
+    border-bottom: 1px solid #EEEFF0;
+}
+
+
+
+#drop a {
+    background: #fff;
+    color: #7B7B7B;
+    width: 219px;
+    padding: 14px !important;
+    margin-left: 18px;
+    padding: 4px;
+    text-transform: none;
+    text-align: center;
+    border-radius: 5px;
+    /* display: block; */
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.24);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.24);
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.24);
+}
+
+
+li.error canvas {
+    display: none;
+}
+
+div#drop {
+    margin-top: 162px;
+    clear: both;
+}
